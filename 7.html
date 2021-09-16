@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+  <title>WEB1 - html</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1><a href="index.html">WEB_HTML</a></h1>
+  <div id="grid">
+  <ol>
+    <li><a href="1.html">HTML이란 무엇인가?</a></li>
+    <li><a href="2.html">속성</a></li>
+    <li><a href="3.html">부모자식 태그</a></li>
+    <li><a href="4.html">문서 구조 & 슈퍼스타들</a></li>
+    <li><a href="5.html">태그의 제왕 링크 a</a></li>
+    <li><a href="6.html">웹페이지 완성!</a></li>
+    <li><a href="7.html" id="active">부록</a></li>
+  </ol>
+  <div id="article">
+  <h2>7. 부록</h2>
+  <P>
+    <input type="checkbox"> <strong>Checkbox</strong>: input type="checkbox"</p>
+    <p>- 만약 웹사이트를 <u>아름답게</u> 하고 싶다면, <strong>CSS</strong>를 배워야 함.
+    <br>- 만약 <u>사용자와 상호작용</u>하는 웹페이지를 만들고 싶다면, <strong>JavaScript</strong>를 공부해야 함.
+    <br>- 만약 <u>생산성의 한계를 극복</u>하고 싶다면, <strong>back end</strong> 기술을 배워야 함.
+    <br>&nbsp;&nbsp;-> 하나의 파일을 변경하면 1억개 웹페이지가 동시에 바뀌는 폭발적인 효과를 경험할 수 있음.
+    <br>&nbsp;&nbsp;-> <strong>JSP, PHP, Node.js</strong> etc.
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;(이들은 서로 경쟁관계라서, 이들 중 하나를 공부하면 됨.)
+    <br>- 만약 웹페이지에 <u>광고</u>를 달아 수익 창출하고 싶다면, <strong>Advertisement 수업</strong>을 들으면 됨.
+  </p>
+  <h3>코드의 힘</h3>
+    <h4>1. 동영상 삽입</h4>
+      <p>- 유튜브 동영상에서 <u>공유</u> 누르고 <u>동영상 퍼가기</u> 누르기
+        <br>- 코드 카피해서 붙여넣기</p>
+  <p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/7T7r_oSp0SE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+    <h4>2.댓글 기능 추가</h4>
+    <p>- html만으로는 구현 어려움. back end 기술을 알아야 함.
+      <br> - 뿐만 아니라, 스팸 때문에 엄청난 기술이 요구됨.
+      <br> &nbsp;&nbsp;-> <strong>Disqus</strong>라는 무료 서비스 이용해서 댓글 기능 추가 (<strong>LiveRe</strong>도 좋음)
+    </p>
+    <p>방법:
+      <br>- Disqus에서 로그인 후 get started
+      <br>- I want to install Disqus on my site 클릭
+      <br>- Create a new site에 정보 넣기
+      <br>- 2.install Disqus에서 Universal Code 클릭
+      <br>- 코드 복붙하기
+      <br>- 웹서버 주소를 localhost.index.html이나 127.0.0.1/index.html로 바꾸기
+      <br>- But, 이건 <19.웹서버 설치> 강의 보고 apache라는 웹서버 설치 후에 할 수 있음.
+      <br>- apache가 있는 폴더의 htdocs에 자신이 만든 사이트를 'index'라는 이름으로 넣기
+<!--  <p>
+    <div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://web1-0qc6zwzlnk.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</p> -->
+    <h4>3. 채팅 기능 추가</h4>
+    <p>
+      - tawk라는 무료 사이트를 통해 사용 가능
+      - 강의를 끝내는 것에 실패하셨습니다. 돌아가서 강의를 들으세여.
+    </p>
+    <h4>4. 웹사이트 방문자 분석기</h4>
+    <p>- 강의를 듣는 것에 실패하셨습니다. 돌아가서 강의를 들으세여.</p>
+<p>* < !-- // -->: '< !--' 와 '-->' 사이에 있는 것들을 없는 것처럼 인식하라는 뜻 </p>
+  </div>
+  </div>
+</body>
+</html>
